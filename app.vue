@@ -28,4 +28,7 @@
   <h4>Nuxt中定义全局属性和方法</h4>
   <h4>Nuxt中自动加载的钩子函数</h4>
   <NuxtLink to="/global">Nuxt中定义全局属性和方法 - Nuxt中自动加载的钩子函数</NuxtLink><br />
+
+  <h4>Pinia 状态管理</h4>
+  <NuxtLink to="/store">Pinia 状态管理</NuxtLink><br />
 </template>

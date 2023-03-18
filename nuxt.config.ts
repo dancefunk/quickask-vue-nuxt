@@ -6,6 +6,7 @@ export default defineNuxtConfig({
             baseURL: process.env.BASE_URL || 'http://www.api.com/api',
         },
     },
+
     //接口反向代理设置
     vite: {
         server: {
@@ -19,6 +20,10 @@ export default defineNuxtConfig({
             }
         }
     },
+    
     //加载第三方模块
-    modules: ['@vant/nuxt'],
+    modules: [
+        '@vant/nuxt',
+        '@pinia/nuxt',
+    ],
 })
